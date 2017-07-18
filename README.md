@@ -1,5 +1,5 @@
 # SUPPA (Docker)
-Docker to run splicing analysis using SUPPA
+Docker to run SUPPA for splicing quantification and analysis
 
 ## Available software
 - [SUPPA](https://github.com/comprna/SUPPA) 2.1 (run using `python3 ${suppa}/suppa.py`)
