@@ -3,7 +3,7 @@
 # For instance, python3 suppa.py generateEvents
 
 FROM ubuntu:16.10
-MAINTAINER Nuno Agostinho <nunodanielagostinho@gmail.com>
+MAINTAINER Ittai Muller i.muller@vumc.nl
 
 RUN apt-get update
 
