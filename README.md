@@ -6,4 +6,5 @@ Docker to run SUPPA for splicing quantification and analysis
 - [python 3](https://python.org)
 
 ## Maintainer
-[Nuno Agostinho](mailto:nunodanielagostinho@gmail.com) - [Nuno Morais Lab](http://imm.medicina.ulisboa.pt/group/compbio/), iMM (2017)
+Ittai Muller(i.muller@vumc.nl)
+Adapted from [Nuno Agostinho](mailto:nunodanielagostinho@gmail.com) - [Nuno Morais Lab](http://imm.medicina.ulisboa.pt/group/compbio/), iMM (2017)
