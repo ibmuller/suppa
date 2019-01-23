@@ -23,7 +23,7 @@ ENV SW=/root/software
 WORKDIR ${SW}
 
 #SUPPA
-RUN pip3 install SUPPA==2.2.1
+RUN pip install SUPPA==2.2.1
 
 #ENV suppa_version=suppa-2.1
 #ENV suppa=${SW}/${suppa_version}
