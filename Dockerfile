@@ -7,10 +7,8 @@ MAINTAINER Ittai Muller i.muller@vumc.nl
 
 RUN apt-get update
 
-COPY get-pip.py .
-RUN apt-get install -y python3
-RUN python3 get-pip.py
-RUN rm get-pip.py
+RUN apt update
+RUN apt install python-pip
 
 RUN pip3 install --upgrade pip
 RUN pip3 install numpy
