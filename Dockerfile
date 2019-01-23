@@ -11,8 +11,9 @@ RUN apt update
 RUN apt install -y python-pip
 
 RUN pip install --upgrade pip
-RUN pip install numpy
-RUN pip install scipy
+RUN apt install python3-numpy
+RUN apt install python3-scipy
+RUN apt install python3-matplotlib
 RUN pip install pandas
 RUN pip install statsmodels
 RUN pip install scikit-learn
