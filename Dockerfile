@@ -10,12 +10,12 @@ RUN apt-get update
 RUN apt update
 RUN apt install -y python-pip
 
-RUN pip3 install --upgrade pip
-RUN pip3 install numpy
-RUN pip3 install scipy
-RUN pip3 install pandas
-RUN pip3 install statsmodels
-RUN pip3 install scikit-learn
+RUN pip install --upgrade pip
+RUN pip install numpy
+RUN pip install scipy
+RUN pip install pandas
+RUN pip install statsmodels
+RUN pip install scikit-learn
 
 ENV SW=/root/software
 WORKDIR ${SW}
