@@ -2,7 +2,7 @@
 # Usage: python3 ${suppa}/suppa.py [SUBCOMMAND] [OPTIONS]
 # For instance, python3 suppa.py generateEvents
 
-FROM ubuntu:16.10
+FROM ubuntu:14.04
 MAINTAINER Ittai Muller i.muller@vumc.nl
 
 RUN apt-get update
