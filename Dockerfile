@@ -8,7 +8,7 @@ MAINTAINER Ittai Muller i.muller@vumc.nl
 RUN apt-get update
 
 RUN apt update
-RUN apt install python-pip
+RUN apt install -y python-pip
 
 RUN pip3 install --upgrade pip
 RUN pip3 install numpy
