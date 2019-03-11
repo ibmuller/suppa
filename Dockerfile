@@ -24,7 +24,7 @@ WORKDIR ${SW}
 #SUPPA
 RUN pip install SUPPA==2.2.1
 
-#ENV suppa_version=suppa-2.1
-#ENV suppa=${SW}/${suppa_version}
-#ADD ${suppa_version}.tar.bz2 ${SW}
+ENV suppa_version=suppa-2.1
+ENV suppa=${SW}/${suppa_version}
+ADD ${suppa_version}.tar.bz2 ${SW}
 
