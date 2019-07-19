@@ -11,12 +11,11 @@ RUN apt update
 RUN apt install -y python-pip
 
 RUN pip install --upgrade pip
-RUN apt install -y python3-numpy
-RUN apt install -y python3-scipy
-RUN apt install -y python3-matplotlib
-RUN pip install -y pandas
-RUN pip install -y statsmodels
-RUN pip install -y scikit-learn
+RUN pip install numpy
+RUN pip install scipy
+RUN pip install pandas
+RUN pip install statsmodels
+RUN pip install scikit-learn
 
 ENV SW=/root/software
 WORKDIR ${SW}
@@ -24,7 +23,6 @@ WORKDIR ${SW}
 #SUPPA
 RUN pip install SUPPA==2.2.1
 
-ENV suppa_version=suppa-2.1
-ENV suppa=${SW}/${suppa_version}
-ADD ${suppa_version}.tar.bz2 ${SW}
-
+#ENV suppa_version=suppa-2.1
+#ENV suppa=${SW}/${suppa_version}
+#ADD ${suppa_version}.tar.bz2 ${SW}
